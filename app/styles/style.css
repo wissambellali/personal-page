@@ -1,47 +1,57 @@
 /*-----------------------------------------------------------
 BODY
 -------------------------------------------------------------*/
+body,h1, h2, h3, h4, h5, h6 {
+font-family: 'Antic Slab', serif;
+}
+h1{
+  color: #2A4B7E;
+  font-weight: bold;
+  font-size: 3em;
+}
 
-.title {
+a.title {
     text-transform: uppercase; 
+    font-weight: bold;
 }
 
 .date{  
   display: block;
   padding: 4px 10px;
-  color: #fff;
+  color: #DD7826;
   float: left;
+  font-weight: bold;
 }
 
 .navigation {
   margin: 0;
   padding: 0;
   list-style: none;
-  background: #000;
   color: #fff;
   width: 100%;
 }
 .navigation a, .navigation span {
   display: block;
   padding: 4px 10px;
-  color: #fff;
+  color: #1379C9;
+  font-weight: bold;
   text-decoration: none;
-  background: #000 url(menu-item.png) left bottom no-repeat;
+  background: #000 url(../images/menu-item2.png) left bottom no-repeat;
 }
 .navigation .toggleSubMenu a, .navigation .toggleSubMenu span {
-  background-image: url(menu-item-deroule.png);
-  display: -webkit-inline-box;
+  background-image: url(../images/menu-item-deroule2.png);
 }
 .navigation .open a, .navigation .open span {
-  background-image: url(menu-item-enroule.png);
+  background-image: url(../images/menu-item-enroule2.png);
 }
 .navigation a:hover, .navigation a:focus, .navigation a:active {
   text-decoration: underline;
 }
 .navigation .subMenu {
   font-size: .8em;
-  background: #ccc url(subMenu.png) 0 0 repeat-x;
+  background: #ccc url(../images/subMenu.png) 0 0 repeat-x;
   font-size: .9em;
+  color: #000000;
   margin: 0;
   padding: 0;
   border-bottom: 1px solid #666;
@@ -54,4 +64,14 @@ BODY
 }
 .navigation .subMenu li {
  padding-left: 85px;
+}
+
+.navigation .subMenu li.company{
+padding-left: 20px;
+font-weight: bold;
+
+
+}
+.navigation li.toggleSubMenu{
+  line-height: 30px;
 }
