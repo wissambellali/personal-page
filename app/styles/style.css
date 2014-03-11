@@ -2,9 +2,15 @@
 BODY
 -------------------------------------------------------------*/
 
-li.title a{
+.title {
     text-transform: uppercase; 
+}
 
+.date{  
+  display: block;
+  padding: 4px 10px;
+  color: #fff;
+  float: left;
 }
 
 .navigation {
@@ -24,6 +30,7 @@ li.title a{
 }
 .navigation .toggleSubMenu a, .navigation .toggleSubMenu span {
   background-image: url(menu-item-deroule.png);
+  display: -webkit-inline-box;
 }
 .navigation .open a, .navigation .open span {
   background-image: url(menu-item-enroule.png);
@@ -44,4 +51,7 @@ li.title a{
   padding: 3px 20px;
   float: left;
   width: 12%;
+}
+.navigation .subMenu li {
+ padding-left: 85px;
 }
