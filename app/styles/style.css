@@ -10,6 +10,7 @@ h1{
   font-size: 3em;
 }
 
+
 a.title {
     text-transform: uppercase; 
     font-weight: bold;
@@ -74,4 +75,29 @@ font-weight: bold;
 }
 .navigation li.toggleSubMenu{
   line-height: 30px;
+}
+
+.sidebar{
+    background: #fff url(../images/sidebar2.png) left top no-repeat;
+
+}
+.containerSidebar{
+  padding: 5px 5px 5px 5px;
+
+}
+.containerSidebar h3{
+  color: #444444;
+  border-bottom: 1px solid #444444;
+  border-bottom-style: dashed;
+  border-bottom-width: 2px;
+}
+.Infos{
+  width: 280px;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  border: 3px dashed #ccc;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 10px auto;
 }
