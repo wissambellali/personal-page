@@ -10,12 +10,10 @@ h1{
   font-size: 3em;
 }
 
-
-a.title {
+.toggleSubMenu a{
     text-transform: uppercase; 
     font-weight: bold;
 }
-
 
 .date{  
   display: block;
@@ -65,7 +63,9 @@ a.title {
   padding: 0;
   border-bottom-style: dashed;
   border-bottom-width: 2px;
-  border-bottom-color: #444444;}
+  border-bottom-color: #444444;
+  padding: 10px 0 10px 0;
+}
 .navigation ul.subMenu a {
   background: none;
   padding: 3px 20px;
@@ -76,11 +76,10 @@ a.title {
  padding-left: 85px;
 }
 
-.navigation .subMenu li.company{
+.navigation .subMenu li.company, .navigation .subMenu li.school{
 padding-left: 20px;
 font-weight: bold;
-
-
+text-transform: uppercase;
 }
 .navigation li.toggleSubMenu{
   line-height: 30px;
