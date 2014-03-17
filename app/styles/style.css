@@ -1,6 +1,16 @@
 /*-----------------------------------------------------------
 BODY
 -------------------------------------------------------------*/
+body{
+  background: url(../images/header.jpg) center top no-repeat;
+  background-position: center 65px;
+}
+hr.headerBG{
+  border-width: 2.5px 0 0;
+}
+.six.columns.offset-by-ten.headerInfos{
+  height: 235px;
+}
 body,h1, h2, h3, h4, h5, h6 {
 font-family: 'Antic Slab', serif;
 }
@@ -34,7 +44,8 @@ h1{
 .navigation a, .navigation span {
   display: block;
   padding: 4px 10px;
-  color: #1379C9;
+  color: #444444;
+  font-size: 16px;
   font-weight: bold;
   text-decoration: none;
   background: url(../images/menu-item2.png) left bottom no-repeat;
@@ -100,6 +111,7 @@ text-transform: uppercase;
   border-bottom-style: dashed;
   border-bottom-width: 2px;
 }
+
 .Infos{
   width: 280px;
   text-align: center;
@@ -108,5 +120,8 @@ text-transform: uppercase;
   border: 3px dashed #ccc;
   padding-top: 5px;
   padding-bottom: 5px;
-  margin: 10px auto 20px auto;
+  margin: 30px auto 20px auto;
+  background: #ffffff;
+  opacity: 0.8;
+  color: #292828;
 }
