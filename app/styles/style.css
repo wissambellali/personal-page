@@ -3,12 +3,12 @@ BODY
 -------------------------------------------------------------*/
 body{
   background: url(../images/header.jpg) center top no-repeat;
-  background-position: center 65px;
+  background-position: center 80px;
 }
 hr.headerBG{
   border-width: 2.5px 0 0;
 }
-.six.columns.offset-by-ten.headerInfos{
+.seven.columns.offset-by-nine.headerInfos{
   height: 235px;
 }
 body,h1, h2, h3, h4, h5, h6 {
@@ -31,6 +31,7 @@ h1{
   color: #DD7826;
   float: left;
   font-weight: bold;
+  font-size: large;
 }
 
 .navigation {
@@ -113,15 +114,18 @@ text-transform: uppercase;
 }
 
 .Infos{
-  width: 280px;
-  text-align: center;
-  font-size: large;
-  font-weight: bold;
-  border: 3px dashed #ccc;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  margin: 30px auto 20px auto;
-  background: #ffffff;
-  opacity: 0.8;
-  color: #292828;
+width: 350px;
+height: 140px;
+vertical-align: middle;
+line-height: 32px;
+text-align: center;
+font-size: x-large;
+font-weight: bold;
+border: 3px dashed #ccc;
+padding-top: 5px;
+padding-bottom: 5px;
+margin: 30px auto 20px auto;
+background: #ffffff;
+opacity: 0.8;
+color: #292828;
 }
